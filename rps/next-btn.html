@@ -1,0 +1,65 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="next-btn.css">
+    <title>Rock Paper Scissors Game</title>
+</head>
+<body>
+<main>
+    <div class="container">
+      <div class="container1">
+        <div class="celebration_images">
+          <img src="img/Group 5 (1).svg" alt="celebration" class="img1">
+          <img src="img/Vector.svg" alt="celebration" class="Vector">
+        </div>
+        <div class="newdiv">
+          <h1>HURRAY!</h1>
+          <p>You won the game</p>
+        </div>
+        <a href="index.html" class="play-again"><span>PLAY  AGAIN</span></a>
+      </div>
+    </div>
+  </main>
+  
+  <div class="box">
+    <a class="button" href="#">RULES</a>
+  </div>
+  
+  <div id="popup1" class="overlay">
+    <div class="popup">
+      <h2>Game Rules</h2>
+      <a class="close" href="#popup1">×</a>
+      <div class="rule_content">
+        <ul>
+          <li class="list_item">
+            Rock beats scissors, scissors beat paper, and paper beats rock.
+          </li>
+          <li class="list_item">
+            Agree ahead of time whether you’ll count off “rock, paper,
+            scissors, shoot” or just “rock, paper, scissors.”
+          </li>
+          <li class="list_item">
+            Use rock, paper, scissors to settle minor decisions or simply play
+            to pass the time
+          </li>
+          <li class="list_item">
+            If both players lay down the same hand, each player lays down
+            another hand
+          </li>
+        </ul>
+      </div>
+    </div>
+  
+  </div>
+  <script >
+   function togglePopup(){
+   document.getElementById("popup-1").classList.toggle("active");
+ }
+  </script>
+</body>
+</html>

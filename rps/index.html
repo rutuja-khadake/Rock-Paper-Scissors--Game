@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="preload">
+  <div class="container">
+  <header>
+    <div class="title-container">
+      <div class="title">
+        <p>ROCK</p>
+        <p>PAPER</p>
+        <p>SCISSORS</p>
+      </div>
+      <div class="score">
+        <div class="score__title"> your score</div>
+        <div class="score__number">0</div>
+      </div>
+      <div class="score">
+        <div class="score__title"> computer score</div>
+        <div class="score__number">0</div>
+      </div>
+    </div>
+   
+
+      
+    </div>
+  
+  </header>-
+ <section class="game">
+  <button class="option-btn" data-option="rock">
+    <div class="option rock">
+      <img src="img/icons8-fist-67 1.svg" alt="rock">
+    </div>
+   </button>
+    
+     <div class="line line_1"><img src="img/Line 1.png"></div>
+     <button class="option-btn" data-option="scissors">
+      <div class="option scissors">
+        <img src="img/17911 1.svg" alt="scissors">
+      </div>
+     </button><div class="middle_half">
+      <div class="line tilt_1"><img src="img/Line 2.png"></div>
+      
+      <div class="line tilt_2"><img src="img/Line 3.png"></div>
+    </div>
+
+     <button class="option-btn" data-option="paper">
+      <div class="option paper">
+        <img src="img/icons8-hand-64 1.svg" alt="paper">
+      </div>
+     </button>
+
+    </div>
+  </section>
+</div>
+<section class="results hidden">
+  <h2 class="results__heading">you picked</h2>
+  <h2 class="results__heading">PC picked</h2>
+  <div class="results__result"></div>
+  <div class="results__winner hidden">
+    <h3 class="results__text"></h3>
+    <button class="play-again"><span>Play again</span></button>
+  </div>
+  <div class="results__result"></div>
+</section>
+
+
+</div>
+</div>
+
+
+<div class="box">
+  <a class="button" href="#">RULES</a>
+</div>
+
+<div id="popup1" class="overlay">
+  <div class="popup">
+    <h2>Game Rules</h2>
+    <a class="close" href="#popup1">×</a>
+    <div class="rule_content">
+      <ul>
+        <li class="list_item">
+          Rock beats scissors, scissors beat paper, and paper beats rock.
+        </li>
+        <li class="list_item">
+          Agree ahead of time whether you’ll count off “rock, paper,
+          scissors, shoot” or just “rock, paper, scissors.”
+        </li>
+        <li class="list_item">
+          Use rock, paper, scissors to settle minor decisions or simply play
+          to pass the time
+        </li>
+        <li class="list_item">
+          If both players lay down the same hand, each player lays down
+          another hand
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+    </div>
+   
+</div>
+
+
+        </div>
+      </div>
+  
+<a href="/next-btn.html" class="rule_btn" id="next_btn">NEXT</a>
+
+</div>
+<script src="index.js"></script>
+</body>
+</html>
